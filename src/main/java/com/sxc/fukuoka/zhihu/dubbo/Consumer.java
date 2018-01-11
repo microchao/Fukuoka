@@ -1,0 +1,17 @@
+package com.sxc.fukuoka.zhihu.dubbo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Consumer {
+    public static void main(String[] args) throws Exception {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+                new String[]{"consumer.xml"});
+        context.start();
+        // obtain proxy object for remote invocation
+        DemoService demoService = (DemoService) context.getBean("demoService");
+        // execute remote invocation
+        String hello = demoService.sayHello("world");
+        // show the result
+        System.out.println(hello);
+    }
+}
