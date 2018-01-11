@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="504b4a72-5cb9-43dc-80e9-04d24593ac81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -548,7 +547,7 @@
       <workItem from="1515481380011" duration="4022000" />
       <workItem from="1515550990650" duration="696000" />
       <workItem from="1515553919797" duration="6394000" />
-      <workItem from="1515639547261" duration="454000" />
+      <workItem from="1515639547261" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="Fukuoda 初始化">
       <created>1515133688219</created>
@@ -564,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515144891429</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fukuoda 初始化">
+      <created>1515640012127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515640012127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35015000" />
+    <option name="totallyTimeSpent" value="35026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
